@@ -1,0 +1,265 @@
+/*!
+ *
+ * Copyright 2016 CREATEC(www.createcdigital.com)
+ *
+ */
+
+@charset "utf-8";
+
+/* reset */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0
+}
+
+html,
+body {
+	height: 100%
+}
+
+body,
+input,
+button,
+textarea,
+select {
+	font-size: 16px;
+	font-family: "SimHei", Tahoma, Helvetica, Arial;
+	color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+fieldset,
+img {
+	border: 0
+}
+
+li,
+dd {
+	list-style: none
+}
+
+a {
+	color: #d30000;
+	text-decoration: none
+}
+
+a:hover,
+a:active {
+	text-decoration: underline
+}
+
+section,
+article,
+aside,
+header,
+footer,
+nav,
+dialog,
+figure,
+hgroup {
+	display: block
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* android */
+
+select {
+	-webkit-appearance: none;
+}
+
+
+/*  background-color: transparent; */
+.hide {display: none;}
+/*-- index.html
+====================================================== */
+
+.swiper-container {
+	width: 640px;
+	height: 100%;
+	background: #000000;
+	margin: 0 auto;
+	display: none;
+	user-select: none;
+	touch-callout: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+}
+
+
+.btnr{
+	position: absolute;
+	top: 612px;
+	left: 530px;
+	width: 15%;
+	z-index: 999;
+}
+
+.btnl{
+	position: absolute;
+	top: 612px;
+	left: 15px;
+	width: 15%;
+	z-index: 999;
+}
+
+/* loading */
+
+body {
+	background: #202024;
+	background: -moz-radial-gradient(circle, #202024, #202024);
+	background: #202024;
+	overflow: hidden;
+}
+
+
+.loader {
+	margin: 0 auto;
+	width: 640px;
+	position: absolute;
+	background: #202024;
+}
+
+.l-1 {
+	position: absolute;
+	z-index: 0;
+}
+
+/* p1 */
+
+.p1 {
+	height: 100%;
+}
+
+.p1 .e1-1 {
+	position: absolute;
+	top: 538px;
+	left: 135px;
+	width: 26.7%;
+	height: 5%;
+}
+
+.p1 .e1-2 {
+	position: absolute;
+	top: 538px;
+	left: 335px;
+	width: 26.7%;
+	height: 5%;
+}
+
+/* p2 */
+
+.p2 {
+	height: 100%;
+}
+
+.p2 .e2-1 {
+	position: absolute;
+	top: 370px;
+	left: 135px;
+	width: 26.7%;
+	height: 5%;
+}
+
+.p2 .e2-2 {
+	position: absolute;
+	top: 370px;
+	left: 335px;
+	width: 26.7%;
+	height: 5%;
+}
+/* p3 */
+
+.p3 {
+	height: 100%;
+}
+
+.p3 .e3-1 {
+	position: absolute;
+	top: 665px;
+	left: 135px;
+	width: 26.7%;
+	height: 5%;
+}
+
+.p3 .e3-2 {
+	position: absolute;
+	top: 665px;
+	left: 335px;
+	width: 26.7%;
+	height: 5%;
+}
+/* p4 */
+
+.p4 {
+	height: 100%;
+}
+
+.p4 .e4-1 {
+	position: absolute;
+	top: 745px;
+	left: 150px;
+	width: 26.7%;
+	height: 5%;
+}
+
+.p4 .e4-2 {
+	position: absolute;
+	top: 745px;
+	left: 350px;
+	width: 26.7%;
+	height: 5%;
+}
